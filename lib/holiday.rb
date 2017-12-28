@@ -38,7 +38,7 @@ def all_supplies_in_holidays(holiday_hash)
       if supplies.count > 1
         binding.pry
         puts supplies.join(", ")
-        
+
       else
         puts supplies
       end
