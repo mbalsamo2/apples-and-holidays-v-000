@@ -37,7 +37,7 @@ def all_supplies_in_holidays(holiday_hash)
       #puts "#{day}: #{supplies}"
       if supplies.count > 1
         supplies.join(", ")
-
+      end
     end
   end
 end
