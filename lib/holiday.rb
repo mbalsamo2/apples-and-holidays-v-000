@@ -35,14 +35,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     holiday.each do |holiday, supplies|
       puts "  #{holiday.capitalize}:"
-      if supplies.count > 1
 
-        supplies.join(", ")
-
-
-      else
-        puts supplies
-      end
     end
   end
 end
