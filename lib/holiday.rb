@@ -32,13 +32,13 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each do |season, holiday|
-    #puts "#{season}: #{holiday}"
-    holiday.each do |day, supplies|
-      #puts "#{day}: #{supplies}"
+    puts "#{season.capitalize}:"
+    holiday.each do |holiday, supplies|
+      puts " #{holiday.capitalize}:"
       if supplies.count > 1
 
         supplies.join(", ")
-        binding.pry
+
 
       else
         puts supplies
